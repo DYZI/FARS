@@ -7,8 +7,7 @@ GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 [![Build Status](https://travis-ci.com/DYZI/FARS.svg?branch=master)](https://travis-ci.com/DYZI/FARS)
 Travis
 
-
- [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/DYZI/FARS?branch=master&svg=true)](https://ci.appveyor.com/project/DYZI/FARS)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/DYZI/FARS?branch=master&svg=true)](https://ci.appveyor.com/project/DYZI/FARS)
  AppVeyor
 
 

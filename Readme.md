@@ -39,9 +39,9 @@ which provides a meaningful description of the package and how it should be
 used?
 * Does this package have at least one test included in the [tests/](https://github.com/DYZI/FARS/tree/master/tests/testthat) directory?
 * Does this package have a [NAMESPACE](https://github.com/DYZI/FARS/blob/master/NAMESPACE) file?
-* Does the README.md file for this directory have a [Travis badge](https://travis-ci.org/DYZI/FARS)?
-* Is the build of this package passing on [Travis badge](https://travis-ci.org/DYZI/FARS)?
-* Are the build logs for this package on [Travis badge](https://travis-ci.org/DYZI/FARS) free of any errors, warnings, or notes?
+* Does the README.md file for this directory have a [Travis badge](https://travis-ci.com/DYZI/FARS)?
+* Is the build of this package passing on [Travis badge](https://travis-ci.com/DYZI/FARS)?
+* Are the build logs for this package on [Travis badge](https://travis-ci.com/DYZI/FARS) free of any errors, warnings, or notes?
 
 ## Notes:
 

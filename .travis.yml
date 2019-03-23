@@ -8,7 +8,7 @@ dist: trusty
 language: php
 
 php:
-  - 7.1
+  - 7.1.11
 
 before_script:
   - cd $TRAVIS_BUILD_DIR

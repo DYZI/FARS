@@ -5,6 +5,9 @@ warnings_are_errors: false
 sudo: false
 cache: packages
 dist: trusty
+language: php
+php:
+  - 5.5
 
 before_script:
   - cd $TRAVIS_BUILD_DIR

@@ -6,12 +6,12 @@ sudo: false
 cache: packages
 
 language:php 
-php:
+php:5.5.38
  
 before_script:
-  - cd $TRAVIS_BUILD_DIR
-  - composer install
-
+  - composer self-update
+  - composer install --prefer-source --no-interaction --dev
+ 
 script:
   - $TRAVIS_BUILD_DIR/bin/phpcs --config-set installed_paths vendor/drupal/coder/coder_sniffer
   - $TRAVIS_BUILD_DIR/bin/phpcs -p --report=full $TRAVIS_BUILD_DIR/sites/all/modules/custom

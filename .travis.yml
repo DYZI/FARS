@@ -4,3 +4,16 @@ language: r
 warnings_are_errors: false
 sudo: false
 cache: packages
+dist: trusty
+language: php
+
+php:
+  - 7.1
+
+before_script:
+  - cd $TRAVIS_BUILD_DIR
+  - composer install
+
+script:
+  - $TRAVIS_BUILD_DIR/bin/phpcs --config-set installed_paths vendor/drupal/coder/coder_sniffer
+  - $TRAVIS_BUILD_DIR/bin/phpcs -p --report=full $TRAVIS_BUILD_DIR/sites/all/modules/custom

@@ -7,6 +7,9 @@ GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 [![Build Status](https://travis-ci.com/DYZI/FARS.svg?branch=master)](https://travis-ci.com/DYZI/FARS)
 Travis
 
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/DYZI/FARS?branch=master&svg=true)](https://ci.appveyor.com/project/DYZI/FARS)
+ AppVeyor
+ 
 ## Create an Example Package in R 
 
 Package: fars
@@ -40,3 +43,7 @@ used?
 * Are the build logs for this package on [Travis badge](https://travis-ci.com/DYZI/FARS) free of any errors, warnings, or notes?
 
 * Please, follow the links on Review Criteria.
+## Notes:
+
+* Package has passed also
+[AppVeyor](https://ci.appveyor.com/project/DYZI/FARS) tests   
